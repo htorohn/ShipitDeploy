@@ -7,6 +7,9 @@
     "deploy:athoz-demo-bknd": "npx shipit staging deploy --name=athoz-backend --type=node --repo=git@github.com:htorohn/athoz-backend.git --branch=main --server=deploy@e8cb74f.online-server.cloud",
     "deploy:athoz-demo": "npx shipit staging deploy --name=athoz-demo --branch=main --server=deploy@e8cb74f.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
     
+    "deploy:is-backend": "npx shipit staging deploy --name=is-backend --type=node --repo=git@github.com:htorohn/IntegraSalud-Backend.git --branch=master --server=deploy@ebb7718.online-server.cloud",
+    "deploy:is-frontend": "npx shipit staging deploy --name=is-frontend --branch=master --server=deploy@ebb7718.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/ToroStudio/IntegraSalud/is-frontend",
+    
     "deploy:athoz-backend": "npx shipit staging deploy --name=athoz-backend --type=node --repo=git@github.com:htorohn/athoz-backend.git --branch=main --server=deploy@30348ac.online-server.cloud",
     "deploy:athoz-lasoriginales": "npx shipit staging deploy --name=athoz-lasoriginales --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
     "deploy:athoz-guanatos": "npx shipit staging deploy --name=athoz-guanatos --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/"

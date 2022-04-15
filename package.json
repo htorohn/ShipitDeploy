@@ -12,7 +12,8 @@
     
     "deploy:athoz-backend": "npx shipit staging deploy --name=athoz-backend --type=node --repo=git@github.com:htorohn/athoz-backend.git --branch=main --server=deploy@30348ac.online-server.cloud",
     "deploy:athoz-lasoriginales": "npx shipit staging deploy --name=athoz-lasoriginales --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
-    "deploy:athoz-guanatos": "npx shipit staging deploy --name=athoz-guanatos --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/"
+    "deploy:athoz-guanatos": "npx shipit staging deploy --name=athoz-guanatos --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
+    "deploy:athoz-riobrazillian": "npx shipit staging deploy --name=athoz-riobrazillian --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/"
 
   },
   "author": "",

@@ -69,6 +69,16 @@ module.exports = (shipit) => {
 				await shipit.remote(
 					`cd ${shipit.releasePath} && npm install --production`
 				)
+				if (params.build === 'true') {
+					console.log('NPM BUILD')
+					await shipit.remote(
+						`cd ${shipit.releasePath} && npm run build`
+					)
+				}
+			})
+
+			shipit.blTask('npm:build', async () => {
+				await shipit.remote(`cd ${shipit.releasePath} && npm run build`)
 			})
 
 			//reiniciamos el proceso para que tome la nueva version
@@ -79,8 +89,16 @@ module.exports = (shipit) => {
 			})
 
 			shipit.on('updated', () => {
+				console.log('NPM INSTALL')
 				shipit.start('npm:install')
 			})
+
+			// shipit.on('updated', () => {
+			// if (params.build === 'true') {
+			// 	console.log('NPM BUILD')
+			// 	shipit.start('npm:build')
+			// }
+			// })
 
 			shipit.on('published', () => {
 				shipit.start('server:restart')

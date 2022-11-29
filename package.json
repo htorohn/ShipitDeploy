@@ -1,6 +1,6 @@
 {
   "name": "deploy-node",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Aplicacion para hacer deploy de Node en server remoto ",
   "main": "server.js",
   "scripts": {
@@ -13,7 +13,9 @@
     "deploy:athoz-lasoriginales": "npx shipit staging deploy --name=athoz-lasoriginales --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
     "deploy:athoz-guanatos": "npx shipit staging deploy --name=athoz-guanatos --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
     "deploy:athoz-riobrazilian": "npx shipit staging deploy --name=athoz-riobrazilian --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
-    "deploy:athoz-donabibis": "npx shipit staging deploy --name=athoz-donabibis --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/"
+    "deploy:athoz-donabibis": "npx shipit staging deploy --name=athoz-donabibis --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
+    "deploy:athoz-frontend": "npx shipit staging deploy --name=athoz-frontend --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
+    "deploy:athoz-time": "npx shipit staging deploy --name=athoz-time --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-biometrics/"
   },
   "author": "",
   "license": "ISC",

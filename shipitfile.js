@@ -26,7 +26,7 @@ module.exports = (shipit) => {
 					// '/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/',
 					dirToCopy: './build/',
 					keppWorkspace: true,
-					keepReleases: 3,
+					keepReleases: 1,
 					shallowClone: false,
 					branch: params.branch, //'main',
 				},
@@ -39,7 +39,14 @@ module.exports = (shipit) => {
 			shipit.blTask('server:restart', async () => {
 				// const command = 'forever restartall'
 				// await shipit.remote(`cd ${shipit.config.deployTo} && ${command}`)
-				await shipit.remote(`pm2 restart ${params.name}`)
+				// await shipit.remote(`pm2 restart ${params.name}`)
+				if (params.name === 'athoz-frontend') {
+					await shipit.remote(`./frontend.processes.sh`)
+				} else if (params.name === 'athoz-time') {
+					await shiptit.remote(`./time.processes.sh`)
+				} else {
+					await shipit.remote(`pm2 restart ${params.name}`)
+				}
 			})
 
 			shipit.on('published', () => {

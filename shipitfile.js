@@ -38,12 +38,12 @@ module.exports = (shipit) => {
 			// //reiniciamos el proceso para que tome la nueva version
 			shipit.blTask('server:restart', async () => {
 				// const command = 'forever restartall'
-				// await shipit.remote(`cd ${shipit.config.deployTo} && ${command}`)
+				// await shipit.shiptitremote(`cd ${shipit.config.deployTo} && ${command}`)
 				// await shipit.remote(`pm2 restart ${params.name}`)
 				if (params.name === 'athoz-frontend') {
 					await shipit.remote(`./frontend.processes.sh`)
 				} else if (params.name === 'athoz-time') {
-					await shiptit.remote(`./time.processes.sh`)
+					await shipit.remote(`./time.processes.sh`)
 				} else {
 					await shipit.remote(`pm2 restart ${params.name}`)
 				}

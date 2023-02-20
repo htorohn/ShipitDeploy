@@ -6,6 +6,7 @@
   "scripts": {
     "deploy:athoz-demo-bknd": "npx shipit staging deploy --name=athoz-backend --type=node --repo=git@github.com:htorohn/athoz-backend.git --branch=main --server=deploy@e8cb74f.online-server.cloud",
     "deploy:athoz-demo": "npx shipit staging deploy --name=athoz-demo --branch=main --server=deploy@e8cb74f.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
+    "deploy:athoz-demo-time": "npx shipit staging deploy --name=athoz-demo-time --branch=main --server=deploy@e8cb74f.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-biometrics/",
     "deploy:is-backend": "npx shipit staging deploy --name=is-backend --type=node --repo=git@github.com:htorohn/IntegraSalud-Backend.git --branch=master --server=deploy@ebb7718.online-server.cloud",
     "deploy:is-external": "npx shipit staging deploy --name=is-external --type=node --repo=git@github.com:htorohn/is-external.git --branch=main --build=true --server=deploy@ebb7718.online-server.cloud",
     "deploy:is-frontend": "npx shipit staging deploy --name=is-frontend --branch=master --server=deploy@ebb7718.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/ToroStudio/IntegraSalud/is-frontend/",
@@ -15,7 +16,9 @@
     "deploy:athoz-riobrazilian": "npx shipit staging deploy --name=athoz-riobrazilian --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
     "deploy:athoz-donabibis": "npx shipit staging deploy --name=athoz-donabibis --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
     "deploy:athoz-frontend": "npx shipit staging deploy --name=athoz-frontend --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
-    "deploy:athoz-time": "npx shipit staging deploy --name=athoz-time --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-biometrics/"
+    "deploy:athoz-time": "npx shipit staging deploy --name=athoz-time --branch=main --server=deploy@30348ac.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-biometrics/",
+    "deploy:praxys-demo-bknd": "npx shipit staging deploy --name=praxys-demo-bknd --type=node --repo=git@github.com:htorohn/px-backend.git --branch=main --server=deploy@e8cb74f.online-server.cloud",
+    "deploy:praxys-demo": "npx shipit staging deploy --name=praxys-demo --branch=main --server=deploy@e8cb74f.online-server.cloud --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/ToroStudio/Praxys/px-frontend/"
   },
   "author": "",
   "license": "ISC",

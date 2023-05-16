@@ -26,7 +26,7 @@ module.exports = (shipit) => {
 					// '/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/',
 					dirToCopy: './build/',
 					keppWorkspace: true,
-					keepReleases: 1,
+					keepReleases: 3,
 					shallowClone: false,
 					branch: params.branch, //'main',
 				},

@@ -17,6 +17,7 @@
     "deploy:athoz-riobrazilian": "npx shipit staging deploy --name=athoz-riobrazilian --branch=main --server=deploy@62.151.177.247 --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
     "deploy:athoz-donabibis": "npx shipit staging deploy --name=athoz-donabibis --branch=main --server=deploy@62.151.177.247 --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
     "deploy:athoz-frontend": "npx shipit staging deploy --name=athoz-frontend --branch=main --server=deploy@62.151.177.247 --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
+    "deploy:athoz-shop": "npx shipit staging deploy --name=athoz-shop --branch=main --server=deploy@74.208.123.74 --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-shop/",
     "deploy:athoz-time": "npx shipit staging deploy --name=athoz-time --branch=main --server=deploy@62.151.177.247 --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/athoz.io/athoz-biometrics/",
     "deploy:praxys-demo-bknd": "npx shipit staging deploy --name=praxys-demo-bknd --type=node --repo=git@github.com:htorohn/px-backend-new.git --branch=demo --server=deploy@198.251.75.222",
     "deploy:praxys-demo": "npx shipit staging deploy --name=praxys-demo --branch=main --server=deploy@198.251.75.222 --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/ToroStudio/Praxys/px-frontend/",

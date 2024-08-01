@@ -44,6 +44,8 @@ module.exports = (shipit) => {
 					await shipit.remote(`./frontend.processes.sh`)
 				} else if (params.name === 'athoz-time') {
 					await shipit.remote(`./time.processes.sh`)
+				} else if (params.name === 'athoz-shop') {
+					await shipit.remote(`./shop.processes.sh`)
 				} else if (params.name === 'praxys-frontend') {
 					await shipit.remote(`./restart-praxys.sh`)
 				} else {

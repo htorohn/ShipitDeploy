@@ -23,7 +23,9 @@
     "deploy:praxys-demo": "npx shipit staging deploy --name=praxys-demo --branch=main --server=deploy@198.251.75.222 --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/ToroStudio/Praxys/px-frontend/",
     "deploy:is-demo-bknd": "npx shipit staging deploy --name=is-demo-backend --type=node --repo=git@github.com:htorohn/IntegraSalud-Backend.git --branch=demo --server=deploy@198.251.75.222",
     "deploy:praxys-backend": "npx shipit staging deploy --name=praxys-backend --type=node --repo=git@github.com:htorohn/px-backend-new.git --branch=main --server=deploy@70.35.198.42",
-    "deploy:praxys-frontend": "npx shipit staging deploy --name=praxys-frontend --branch=main --server=deploy@70.35.198.42 --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/ToroStudio/Praxys/px-frontend/"
+    "deploy:praxys-frontend": "npx shipit staging deploy --name=praxys-frontend --branch=main --server=deploy@70.35.198.42 --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/ToroStudio/Praxys/px-frontend/",
+    "deploy:cm-backend": "npx shipit staging deploy --name=cm-backend --type=node --repo=git@github.com:Toro-Studio/cm-backend.git --branch=main --server=deploy@122.8.184.165",
+    "deploy:cm-frontend": "npx shipit staging deploy --name=cm-frontend --branch=main --server=deploy@122.8.184.165 --type=react --workspace=/Users/htoro/Documents/Desarrollo/Negocio/ToroStudio/ContractManagement/cm-frontend/"
   },
   "author": "",
   "license": "ISC",

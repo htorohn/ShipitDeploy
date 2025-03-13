@@ -27,8 +27,9 @@
 		"deploy:praxys-frontend": "npx shipit staging deploy --name=praxys-frontend --branch=main --server=deploy@70.35.198.42 --type=react --workspace=/Users/hectortoro/Library/CloudStorage/OneDrive-Personal/Documents/Desarrollo/Negocio/ToroStudio/Praxys/px-frontend/",
 		"deploy:cm-backend": "npx shipit staging deploy --name=cm-backend --type=node --repo=git@github.com:Toro-Studio/cm-backend.git --branch=main --server=deploy@122.8.184.165",
 		"deploy:cm-frontend": "npx shipit staging deploy --name=cm-frontend --branch=main --server=deploy@122.8.184.165 --type=react --workspace=/Users/hectortoro/Library/CloudStorage/OneDrive-Personal/Documents/Desarrollo/Negocio/ToroStudio/ContractManagement/cm-frontend/",
-		"deploy:ts-backend": "npx shipit staging deploy --name=ts-backend --type=node --repo=git@github.com:Toro-Studio/ts-backend.git --branch=main --server=deploy@70.35.198.42",
-		"deploy:ts-frontend": "npx shipit staging deploy --name=ts-frontend --branch=main --server=deploy@70.35.198.42 --type=react --workspace=/Users/hectortoro/Library/CloudStorage/OneDrive-Personal/Documents/Desarrollo/Negocio/ToroStudio/ToroSuite/ts-frontend/"
+		"deploy:ts-backend": "npx shipit staging deploy --name=ts-backend --type=node --repo=git@github.com:Toro-Studio/ts-backend.git --branch=main --server=deploy@209.46.125.245",
+		"deploy:ts-frontend": "npx shipit staging deploy --name=ts-frontend --branch=main --server=deploy@209.46.125.245 --type=react --workspace=/Users/hectortoro/Library/CloudStorage/OneDrive-Personal/Documents/Desarrollo/Negocio/ToroStudio/ToroSuite/ts-frontend/",
+		"deploy:cahda-frontend": "npx shipit staging deploy --name=cahda-frontend --branch=main --server=deploy@198.251.75.222 --type=react --workspace=/Users/hectortoro/Library/CloudStorage/OneDrive-Personal/Documents/Desarrollo/Negocio/ToroStudio/cahda/cahda-frontend/"
 	},
 	"author": "",
 	"license": "ISC",

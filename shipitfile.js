@@ -78,7 +78,7 @@ module.exports = (shipit) => {
 			//hacemos el install de los modulos del proyecto
 			shipit.blTask('npm:install', async () => {
 				await shipit.remote(
-					`cd ${shipit.releasePath} && npm install --production`
+					`cd ${shipit.releasePath} && npm install --omit=dev`
 				)
 				if (params.build === 'true') {
 					console.log('NPM BUILD')

@@ -96,7 +96,8 @@ module.exports = (shipit) => {
 			shipit.blTask('server:restart', async () => {
 				// const command = 'forever restartall'
 				// await shipit.remote(`cd ${shipit.config.deployTo} && ${command}`)
-				await shipit.remote(`pm2 restart ${params.name}`)
+				if (params.restart) await shipit.remote(params.restart)
+				else await shipit.remote(`pm2 restart ${params.name}`)
 			})
 
 			shipit.on('updated', () => {

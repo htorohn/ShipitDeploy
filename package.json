@@ -4,7 +4,7 @@
 	"description": "Aplicacion para hacer deploy de Node en server remoto ",
 	"main": "server.js",
 	"scripts": {
-		"deploy:athoz-demo-bknd": "npx shipit staging deploy --name=athoz-backend --type=node --repo=git@github.com:htorohn/athoz-backend.git --branch=demo --server=deploy@198.251.75.222",
+		"deploy:athoz-demo-bknd": "npx shipit staging deploy --name=athoz-backend --type=node --repo=git@github.com:htorohn/athoz-backend.git --branch=demo --server=deploy@198.251.75.222 --restart=./restart-athoz.sh",
 		"deploy:athoz-demo": "npx shipit staging deploy --name=athoz-demo --branch=main --server=deploy@198.251.75.222 --type=react --workspace=/Users/hectortoro/Documents/Desarrollo/Negocio/athoz.io/athoz-frontend/",
 		"deploy:athoz-demo-time": "npx shipit staging deploy --name=athoz-demo-time --branch=main --server=deploy@198.251.75.222 --type=react --workspace=/Users/hectortoro/Documents/Desarrollo/Negocio/athoz.io/athoz-biometrics/",
 		"deploy:athoz-demo-shop": "npx shipit staging deploy --name=athoz-demo-shop --branch=main --server=deploy@198.251.75.222 --type=react --workspace=/Users/hectortoro/Documents/Desarrollo/Negocio/athoz.io/athoz-shop/",
@@ -24,7 +24,8 @@
 		"deploy:cm-frontend": "npx shipit staging deploy --name=cm-frontend --branch=main --server=deploy@122.8.184.165 --type=react --workspace=/Users/hectortoro/Documents/Desarrollo/Negocio/ToroStudio/ContractManagement/cm-frontend/",
 		"deploy:ts-backend": "npx shipit staging deploy --name=ts-backend --type=node --repo=git@github.com:Toro-Studio/ts-backend.git --branch=main --server=deploy@209.46.125.245",
 		"deploy:ts-frontend": "npx shipit staging deploy --name=ts-frontend --branch=main --server=deploy@209.46.125.245 --type=react --workspace=/Users/hectortoro/Documents/Desarrollo/Negocio/ToroStudio/ToroSuite/ts-frontend/",
-		"deploy:cahda-frontend": "npx shipit staging deploy --name=cahda-frontend --branch=main --server=deploy@198.251.75.222 --type=react --workspace=/Users/hectortoro/Documents/Desarrollo/Negocio/ToroStudio/cahda/cahda-frontend/"
+		"deploy:cahda-frontend": "npx shipit staging deploy --name=cahda-frontend --branch=main --server=deploy@198.251.75.222 --type=react --workspace=/Users/hectortoro/Documents/Desarrollo/Negocio/ToroStudio/cahda/cahda-frontend/",
+		"deploy:cahda-backend": "npx shipit staging deploy --name=cahda-backend --type=node --repo=git@github.com:Toro-Studio/cahda-backend.git --branch=main --server=deploy@198.251.75.222"
 	},
 	"author": "",
 	"license": "ISC",

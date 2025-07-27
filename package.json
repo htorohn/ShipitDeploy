@@ -10,7 +10,7 @@
 		"deploy:athoz-demo-shop": "npx shipit staging deploy --name=athoz-demo-shop --branch=main --server=deploy@198.251.75.222 --type=react --workspace=/Users/hectortoro/Development/athoz/athoz-shop/",
 		"deploy:is-backend": "npx shipit staging deploy --name=is-backend --type=node --repo=git@github.com:htorohn/IntegraSalud-Backend.git --branch=master --server=deploy@74.208.115.56",
 		"deploy:is-external": "npx shipit staging deploy --name=is-external --type=node --repo=git@github.com:htorohn/is-external.git --branch=main --build=true --server=deploy@74.208.115.56",
-		"deploy:is-frontend": "npx shipit staging deploy --name=is-frontend --branch=master --server=deploy@74.208.115.56 --type=react --workspace=/Users/hectortoro/Documents/Desarrollo/Negocio/ToroStudio/IntegraSalud/is-frontend/",
+		"deploy:is-frontend": "npx shipit staging deploy --name=is-frontend --branch=master --server=deploy@74.208.115.56 --type=react --workspace=/Users/hectortoro/Development/toro-studio/integra-salud/is-frontend/",
 		"deploy:athoz-backend": "npx shipit staging deploy --name=athoz-backend --type=node --repo=git@github.com:htorohn/athoz-backend.git --branch=main --server=deploy@69.48.203.169 --restart=./restart-athoz.sh",
 		"deploy:athoz-frontend": "npx shipit staging deploy --name=athoz-frontend --branch=main --server=deploy@62.151.177.247 --type=react --workspace=/Users/hectortoro/Development/athoz/athoz-frontend/",
 		"deploy:athoz-shop": "npx shipit staging deploy --name=athoz-shop --branch=main --server=deploy@74.208.123.74 --type=react --workspace=/Users/hectortoro/Development/athoz/athoz-shop/",
